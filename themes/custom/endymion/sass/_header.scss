@@ -1,0 +1,22 @@
+.main-header {
+  height: 300px;
+  background: #adadad;
+}
+
+.main-navigation {
+  margin-top: 10px;
+  @include span(5 last);
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
