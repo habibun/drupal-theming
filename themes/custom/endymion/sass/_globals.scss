@@ -1,4 +1,15 @@
 /* =======================================================================
+## ++ Susy
+========================================================================== */
+$susy:(
+    container-position: center,
+    last-flow: to,
+    columns: 12,
+    gutters: 1/4,
+    gutter-position: inside,
+);
+
+/* =======================================================================
 ## ++ Globals
 ========================================================================== */
 html{
@@ -7,10 +18,16 @@ html{
 
 body{
     -webkit-font-smoothing: antialiased;
+    background:#fff;
+    font-family: sans-serif;
 }
 
 *{
     box-sizing:border-box;
+}
+
+.container{
+    @include container(1100px);
 }
 
 
