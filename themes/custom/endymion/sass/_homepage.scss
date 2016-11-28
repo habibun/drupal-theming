@@ -1,0 +1,28 @@
+main {
+  margin-top: 100px;
+}
+
+.layout-container {
+  @include span(8);
+}
+
+.article-list {
+  h3 {
+    a {
+      color: #464646;
+      text-decoration: none;
+    }
+  }
+  p{
+    line-height: 1.5;
+  }
+  .views-row{
+    margin: 40px 0;
+  }
+  .views-field-view-node{
+    a{
+      color: red;
+      text-decoration: none;
+    }
+  }
+}
