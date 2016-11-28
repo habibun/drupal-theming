@@ -2,4 +2,4 @@
 sites/default/files/
 node_modules/
 vendor/
-!/core/assets/vendor
+sites/*/settings*.php

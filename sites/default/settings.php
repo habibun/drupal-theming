@@ -753,7 +753,7 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }
 $databases['default']['default'] = array (
-  'database' => 'drupal',
+  'database' => 'dp',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
